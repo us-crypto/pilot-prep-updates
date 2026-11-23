@@ -1,0 +1,46 @@
+name: Phone test
+on:
+  push:
+    branches: [phone-test]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules && sudo udevadm trigger --name-match=kvm
+      - name: Install and open the app on an Android phone emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          target: google_apis
+          arch: x86_64
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+          script: |
+            mkdir -p out
+            adb install -r pilot-prep.apk > out/install.txt 2>&1 || true
+            adb logcat -c
+            adb shell monkey -p com.mavericksmith.pilotprep -c android.intent.category.LAUNCHER 1 > /dev/null 2>&1 || true
+            sleep 40
+            adb shell pidof com.mavericksmith.pilotprep > out/pid.txt 2>&1 || echo "NOT RUNNING" > out/pid.txt
+            adb exec-out screencap -p > out/screen.png || true
+            adb logcat -d -v time > out/logcat.txt || true
+            adb shell run-as com.mavericksmith.pilotprep cat files/last-crash.txt > out/last-crash.txt 2>&1 || true
+      - name: Save the results
+        if: always()
+        run: |
+          git config user.name us-crypto; git config user.email 85217606+us-crypto@users.noreply.github.com
+          git checkout --orphan phone-test-results
+          git rm -rq --cached . || true
+          grep -E "AndroidRuntime|FATAL|ReactNative|Exception|pilotprep|crash|Error" out/logcat.txt | head -400 > out/logcat-important.txt || true
+          git add -f out
+          git commit -qm "Phone test results"
+          git push -f origin HEAD:phone-test-results
