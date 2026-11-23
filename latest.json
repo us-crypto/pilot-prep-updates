@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "versionCode": 1000000,
+  "version": "1.0.1",
+  "versionCode": 1000001,
   "apk": "pilot-prep.apk",
-  "size": 43121840,
-  "sha256": "03cc808966f08e49d31618e3eda6ad97683c55035954c0e417281c6e0fcf50c5",
+  "size": 42349624,
+  "sha256": "dff6695902c1cc26eca72eec910d078dcaf640897ffc3200e63f42e4badcd32e",
   "notes": "Improvements and bug fixes",
-  "published": "2026-11-22T14:44:06.695Z"
+  "published": "2026-11-23T06:38:00.573Z"
 }
