@@ -1,0 +1,400 @@
+11-23 17:30:40.156 D/CarrierSvcBindHelper( 1038): onPackageAdded: com.mavericksmith.pilotprep
+11-23 17:30:40.178 I/SdkSandboxManager(  517): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10192, mPackageName='com.mavericksmith.pilotprep, mAppProcessToken='null'}
+11-23 17:30:40.182 E/BackupHelper(  827): java.io.FileNotFoundException: /data/user_de/0/com.google.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+11-23 17:30:40.182 E/BackupHelper(  827): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:40.261 D/AndroidRuntime( 3508): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-23 17:30:40.264 I/AndroidRuntime( 3508): Using default boot image
+11-23 17:30:40.264 I/AndroidRuntime( 3508): Leaving lock profiling enabled
+11-23 17:30:40.300 D/ImsResolver( 1038): maybeAddedImsService, packageName: com.mavericksmith.pilotprep
+11-23 17:30:40.376 D/CarrierSvcBindHelper( 1038): onPackageModified: com.mavericksmith.pilotprep
+11-23 17:30:40.383 D/ImsResolver( 1038): maybeAddedImsService, packageName: com.mavericksmith.pilotprep
+11-23 17:30:40.546 D/AndroidRuntime( 3508): Calling main entry com.android.commands.monkey.Monkey
+11-23 17:30:40.547 W/Monkey  ( 3508): args: [-p, com.mavericksmith.pilotprep, -c, android.intent.category.LAUNCHER, 1]
+11-23 17:30:40.548 W/Monkey  ( 3508):  arg: "com.mavericksmith.pilotprep"
+11-23 17:30:40.548 W/Monkey  ( 3508): data="com.mavericksmith.pilotprep"
+11-23 17:30:40.670 V/WindowManagerShell(  826): Transition requested: android.os.BinderProxy@ee75c09 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mavericksmith.pilotprep/.MainActivity } baseActivity=ComponentInfo{com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity} topActivity=ComponentInfo{com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity} origActivity=null realActivity=ComponentInfo{com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity} numActivities=1 lastActiveTime=34776 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@e831e0e} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{dd0402f com.mavericksmith.pilotprep.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+11-23 17:30:40.672 I/ActivityTaskManager(  517): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mavericksmith.pilotprep/.MainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+11-23 17:30:40.674 D/CoreBackPreview(  517): Window{a820303 u0 Splash Screen com.mavericksmith.pilotprep}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6e520b9, mPriority=0, mIsAnimationCallback=false}
+11-23 17:30:40.833 V/WindowManager(  517): Sent Transition #6 createdAt=11-23 17:30:40.646 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.mavericksmith.pilotprep/.MainActivity } baseActivity=ComponentInfo{com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity} topActivity=ComponentInfo{com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity} origActivity=null realActivity=ComponentInfo{com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity} numActivities=1 lastActiveTime=34776 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9a2bfe5 Task{41be0b4 #8 type=standard A=10192:com.mavericksmith.pilotprep}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{e1aaba com.mavericksmith.pilotprep.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+11-23 17:30:40.833 V/WindowManager(  517):     info={id=6 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{9a2bfe5 Task{41be0b4 #8 type=standard A=10192:com.mavericksmith.pilotprep}}} m=OPEN f=NONE leash=Surface(name=Task=8)/@0x1728b4f sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{7f68d6b Task{ca24c5c #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x63ad1c8 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
+11-23 17:30:40.891 I/AndroidRuntime( 3508): VM exiting with result code 0.
+11-23 17:30:40.906 I/ActivityManager(  517): Start proc 3630:com.mavericksmith.pilotprep/u0a192 for next-top-activity {com.mavericksmith.pilotprep/com.mavericksmith.pilotprep.MainActivity}
+11-23 17:30:40.909 I/smith.pilotprep( 3630): Using CollectorTypeCC GC.
+11-23 17:30:40.909 W/smith.pilotprep( 3630): Unexpected CPU variant for x86: x86_64.
+11-23 17:30:40.909 W/smith.pilotprep( 3630): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+11-23 17:30:40.924 W/AiAiAutofill( 1566): java.lang.SecurityException: caller is not user's Augmented Autofill Service
+11-23 17:30:40.934 I/NearbyDiscovery( 1421): java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-23 17:30:41.006 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:41.040 E/smith.pilotprep( 3630): Not starting debugger since process cannot load the jdwp agent.
+11-23 17:30:41.061 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:41.078 D/nativeloader( 3630): Configuring clns-6 for other apk /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64:/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.mavericksmith.pilotprep
+11-23 17:30:41.094 V/GraphicsEnvironment( 3630): ANGLE GameManagerService for com.mavericksmith.pilotprep: false
+11-23 17:30:41.095 V/GraphicsEnvironment( 3630): com.mavericksmith.pilotprep is not listed in per-application setting
+11-23 17:30:41.115 W/SoLoader( 3630): Recording new base apk path: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk
+11-23 17:30:41.115 I/SoLoader( 3630): Preparing SO source: DirectApkSoSource[root = [/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/x86_64]]
+11-23 17:30:41.124 I/SoLoader( 3630): Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64 flags = 0]]
+11-23 17:30:41.124 W/SoLoader( 3630): 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64 flags = 0]]
+11-23 17:30:41.124 W/SoLoader( 3630): 		SoSource 1: DirectApkSoSource[root = [/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/x86_64]]
+11-23 17:30:41.124 W/SoLoader( 3630): 	Native lib dir: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64
+11-23 17:30:41.124 W/soloader.recovery.CheckBaseApkExists( 3630): Base apk exists: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk
+11-23 17:30:41.125 W/SoLoader( 3630): 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64 flags = 0]]
+11-23 17:30:41.125 W/SoLoader( 3630): 		SoSource 1: DirectApkSoSource[root = [/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/x86_64]]
+11-23 17:30:41.125 W/SoLoader( 3630): 	Native lib dir: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64
+11-23 17:30:41.141 W/SoLoader( 3630): 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64 flags = 0]]
+11-23 17:30:41.141 W/SoLoader( 3630): 		SoSource 1: DirectApkSoSource[root = [/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/x86_64]]
+11-23 17:30:41.141 W/SoLoader( 3630): 	Native lib dir: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64
+11-23 17:30:41.141 W/SoLoader( 3630): 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64 flags = 0]]
+11-23 17:30:41.141 W/SoLoader( 3630): 		SoSource 1: DirectApkSoSource[root = [/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/x86_64]]
+11-23 17:30:41.141 W/SoLoader( 3630): 	Native lib dir: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64
+11-23 17:30:41.141 D/AndroidRuntime( 3630): Shutting down VM
+--------- beginning of crash
+11-23 17:30:41.141 E/AndroidRuntime( 3630): FATAL EXCEPTION: main
+11-23 17:30:41.141 E/AndroidRuntime( 3630): Process: com.mavericksmith.pilotprep, PID: 3630
+11-23 17:30:41.141 E/AndroidRuntime( 3630): hp4: couldn't find DSO to load: libreactnative.so
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	existing SO sources: 
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 		SoSource 0: ApplicationSoSource[DirectorySoSource[root = /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64 flags = 0]]
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 		SoSource 1: DirectApkSoSource[root = [/data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/base.apk!/lib/x86_64]]
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 		SoSource 2: DirectorySoSource[root = /system/lib64 flags = 3]
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 		SoSource 3: DirectorySoSource[root = /vendor/lib64 flags = 3]
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	Native lib dir: /data/app/~~FTwIUuUHnDRCaFN0wRIwlg==/com.mavericksmith.pilotprep-7pE3uDkmAZ08v17u3TrWhg==/lib/arm64
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.facebook.soloader.SoLoader.b(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:111)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.facebook.soloader.SoLoader.o(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:157)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.facebook.soloader.SoLoader.n(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:3)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.facebook.soloader.SoLoader.l(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:333)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.facebook.soloader.SoLoader.m(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:6)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.facebook.react.internal.featureflags.ReactNativeFeatureFlagsCxxInterop.<clinit>(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:3)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.mavericksmith.pilotprep.MainApplication.onCreate(r8-map-id-af0961e2fca7eff7c94e0153edb34202ab86413ac611212cf270518d9556a9d5:77)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1316)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6998)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2236)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.os.Looper.loopOnce(Looper.java:205)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.os.Looper.loop(Looper.java:294)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at android.app.ActivityThread.main(ActivityThread.java:8177)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at java.lang.reflect.Method.invoke(Native Method)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:552)
+11-23 17:30:41.141 E/AndroidRuntime( 3630): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:971)
+11-23 17:30:41.153 W/ActivityTaskManager(  517):   Force finishing activity com.mavericksmith.pilotprep/.MainActivity
+11-23 17:30:41.164 I/ActivityManager(  517): Process com.mavericksmith.pilotprep (pid 3630) has died: fg  TOP 
+11-23 17:30:41.189 W/AppSearchIcing(  517): icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+11-23 17:30:41.217 I/DropBoxManagerService(  517): add tag=data_app_crash isTagEnabled=true flags=0x2
+11-23 17:30:41.252 E/PackageManager(  517): java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+11-23 17:30:41.427 V/WindowManager(  517):     info={id=7 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{7f68d6b Task{ca24c5c #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x63ad1c8 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{9a2bfe5 Task{41be0b4 #8 type=standard A=10192:com.mavericksmith.pilotprep}}} m=CLOSE f=NONE leash=Surface(name=Task=8)/@0x1728b4f sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{958d92c token=android.os.Binder@d784b7e})/@0x19bea56 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
+11-23 17:30:41.452 D/StrictMode( 1667): 	at android.os.Parcel.readExceptionCode(Parcel.java:3002)
+11-23 17:30:41.452 D/StrictMode( 1667): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
+11-23 17:30:41.452 D/StrictMode( 1667): 	at android.os.Parcel.readExceptionCode(Parcel.java:3002)
+11-23 17:30:41.452 D/StrictMode( 1667): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
+11-23 17:30:41.452 D/StrictMode( 1667): 	at android.os.Parcel.readExceptionCode(Parcel.java:3002)
+11-23 17:30:41.452 D/StrictMode( 1667): 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
+11-23 17:30:41.538 W/InputManager-JNI(  517): Input channel object 'a820303 Splash Screen com.mavericksmith.pilotprep (client)' was disposed without first being removed with the input manager!
+11-23 17:30:41.654 W/ActivityTaskManager(  517): Activity top resumed state loss timeout for ActivityRecord{2ae0c08 u0 com.mavericksmith.pilotprep/.MainActivity t-1 f}}
+11-23 17:30:41.682 D/CarrierSvcBindHelper( 1038): onPackageModified: com.mavericksmith.pilotprep
+11-23 17:30:41.694 D/ImsResolver( 1038): maybeAddedImsService, packageName: com.mavericksmith.pilotprep
+11-23 17:30:41.703 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:41.852 I/AiAiEcho( 1566): AppFetcherImplV2 updateApps package:[com.mavericksmith.pilotprep], userId:[0], reason:[package is added.].
+11-23 17:30:41.876 I/AiAiEcho( 1566): AppFetcherImpl onPackageChanged com.mavericksmith.pilotprep.
+11-23 17:30:41.879 I/AiAiEcho( 1566): AppIndexer Package:[com.mavericksmith.pilotprep] UserProfile:[0] Enabled:[true].
+11-23 17:30:41.879 I/AiAiEcho( 1566): AppFetcherImplV2 updateApps package:[com.mavericksmith.pilotprep], userId:[0], reason:[package is updated.].
+11-23 17:30:42.017 E/TaskWorkerFactory( 2254): java.lang.NoSuchMethodException: com.android.devicelockcontroller.provision.worker.DeviceCheckInWorker.<init> [class android.content.Context, class androidx.work.WorkerParameters, interface com.google.common.util.concurrent.ListeningExecutorService]
+11-23 17:30:42.218 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:42.274 E/constellation( 1447): java.io.IOException: AUTHENTICATION_FAILED
+11-23 17:30:42.460 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:42.496 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:42.577 W/ActivityManager(  517): Scheduling restart of crashed service com.google.android.gm/com.android.email.job.MigrateDaJob$MigrateDaJobService in 1000ms for connection
+11-23 17:30:42.577 W/ActivityManager(  517): Scheduling restart of crashed service com.google.android.gm/androidx.work.impl.background.systemjob.SystemJobService in 11000ms for connection
+11-23 17:30:42.633 I/AiAiEcho( 1566): AppFetcherImpl onPackageChanged com.mavericksmith.pilotprep.
+11-23 17:30:42.634 I/AiAiEcho( 1566): AppIndexer Package:[com.mavericksmith.pilotprep] UserProfile:[0] Enabled:[true].
+11-23 17:30:42.634 I/AiAiEcho( 1566): AppFetcherImplV2 updateApps package:[com.mavericksmith.pilotprep], userId:[0], reason:[package is updated.].
+11-23 17:30:42.869 I/SafetyLabelChangedBroadcastReceiver(  827): received broadcast packageName: com.mavericksmith.pilotprep, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+11-23 17:30:42.892 E/dlpn    ( 1421): RuntimeException while executing runnable dlqc{qze@6204d13} with executor MoreExecutors.directExecutor()
+11-23 17:30:42.892 E/dlpn    ( 1421): java.lang.NullPointerException: Attempt to get length of null array
+11-23 17:30:42.939 W/GCM-GMS ( 1447): Failed to get registration: java.io.IOException: AUTHENTICATION_FAILED
+11-23 17:30:43.063 I/org.webrtc.Logging( 3873): CrashStartupListener: Checking conference crashes for 0 account(s).
+11-23 17:30:43.082 W/GCM-GMS ( 1447): Failed to get direct boot token: java.io.IOException: AUTHENTICATION_FAILED
+11-23 17:30:43.285 I/NearbyDiscovery( 1421): java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-23 17:30:43.418 W/SnapshotHandler( 1606): java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:43.418 W/SnapshotHandler( 1606): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:43.427 W/SnapshotHandler( 1606): java.io.FileNotFoundException: /data/user/0/com.google.android.googlequicksearchbox/files/phenotype/shared/com.google.android.libraries.notifications.platform#com.google.android.googlequicksearchbox.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:43.427 W/SnapshotHandler( 1606): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:43.584 W/AiAiAutofill( 1566): java.lang.SecurityException: caller is not user's Augmented Autofill Service
+11-23 17:30:43.717 E/cr_CronetUrlRequestContext( 1606): Exception in upload method
+11-23 17:30:43.717 E/cr_CronetUrlRequestContext( 1606): com.google.android.apps.gsa.shared.r.d: Error code: 262182
+11-23 17:30:43.746 E/A       ( 1606): onError
+11-23 17:30:43.854 W/ModernMediaScanner( 1656): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+11-23 17:30:44.025 I/BlockstoreStorage( 1447): Clearing Blockstore Data for package com.mavericksmith.pilotprep [CONTEXT service_id=258 ]
+11-23 17:30:44.098 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:44.142 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:44.155 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:44.316 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:44.532 I/SemanticLocation( 1421): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/default_model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:44.532 I/SemanticLocation( 1421): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:44.703 W/BaseSearchIndex( 1039): Error initial controller
+11-23 17:30:44.810 I/SemanticLocation( 1421): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:44.810 I/SemanticLocation( 1421): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:44.845 W/BaseSearchIndex( 1039): Error initial controller
+11-23 17:30:45.070 E/PhenotypeFlagCommitter( 3873): java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-23 17:30:45.102 I/SemanticLocation( 1421): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:45.102 I/SemanticLocation( 1421): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:45.384 E/HardwareInfoFeatureProviderImpl( 1039): java.lang.NumberFormatException: For input string: "E"
+11-23 17:30:45.384 E/PhoneInterfaceManager( 1038): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-23 17:30:45.384 E/PhoneInterfaceManager( 1038): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-23 17:30:45.506 W/FileUtils(  517): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+11-23 17:30:45.638 E/SystemServiceRegistry( 1039): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-23 17:30:45.985 E/IndexablesProvider( 4242): java.lang.IllegalStateException: We should initialize FormFactorUtils before getting instance.
+11-23 17:30:46.144 E/bwel    ( 1421): java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-23 17:30:46.399 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:46.435 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:46.510 W/BugleRcs( 4224): android.content.pm.PackageManager$NameNotFoundException: com.google.android.ims
+11-23 17:30:47.055 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:47.084 I/AiAiEcho( 1566): Settings changed for uri: content://settings/secure/dropbox:data_app_crash
+11-23 17:30:47.096 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:47.880 E/RecoverySnapshotStorage(  517): Error reading snapshot for 10131 from disk
+11-23 17:30:47.880 E/RecoverySnapshotStorage(  517): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+11-23 17:30:47.880 E/RecoverySnapshotStorage(  517): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:48.133 E/Vision  ( 1447): Couldn't read checkbot setting: android.provider.Settings$SettingNotFoundException: multi_cb
+11-23 17:30:48.162 E/RecoverySnapshotStorage(  517): Error reading snapshot for 10131 from disk
+11-23 17:30:48.162 E/RecoverySnapshotStorage(  517): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+11-23 17:30:48.162 E/RecoverySnapshotStorage(  517): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:48.164 E/keystore2(  157):     3: Error::Rc(r#SYSTEM_ERROR)
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:783)
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3071)
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.createException(Parcel.java:3041)
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.readException(Parcel.java:3024)
+11-23 17:30:48.165 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.readException(Parcel.java:2966)
+11-23 17:30:48.316 W/NetworkScheduler( 1421): java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+11-23 17:30:48.342 E/enyj    ( 1421): java.lang.RuntimeException: ManagedChannel allocation site
+11-23 17:30:48.371 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:48.395 W/Conscrypt( 1421): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:48.630 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:48.643 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:48.957 I/AiAiEcho( 1566): Settings changed for uri: content://settings/secure/dropbox:data_app_crash
+11-23 17:30:48.998 W/ModernMediaScanner( 1656): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+11-23 17:30:48.998 W/ModernMediaScanner( 1656): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+11-23 17:30:49.153 E/RecoverySnapshotStorage(  517): Error reading snapshot for 10131 from disk
+11-23 17:30:49.153 E/RecoverySnapshotStorage(  517): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+11-23 17:30:49.153 E/RecoverySnapshotStorage(  517): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:49.159 E/keystore2(  157):     3: Error::Rc(r#SYSTEM_ERROR)
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:783)
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3071)
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.createException(Parcel.java:3041)
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.readException(Parcel.java:3024)
+11-23 17:30:49.160 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.readException(Parcel.java:2966)
+11-23 17:30:49.214 W/NetworkScheduler( 1421): java.lang.IllegalArgumentException: Only the following extra parameter types are supported: Integer, Long, Double, String, Boolean, and nested Bundles with the same restrictions.
+11-23 17:30:49.711 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:49.759 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:50.283 W/ModernMediaScanner( 1656): android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: files._data (code 2067 SQLITE_CONSTRAINT_UNIQUE)
+11-23 17:30:50.342 W/MediaProvider( 1656): java.io.IOException: Failed to update quota type for /storage/emulated/0/Android
+11-23 17:30:50.344 W/MediaProvider( 1656): java.io.IOException: Failed to update quota type for /storage/emulated/0/Android/media
+11-23 17:30:50.502 W/AsyncOperation( 1421): OperationException[Status{statusCode=unknown status code: 29503, resolution=null}]
+11-23 17:30:50.513 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:50.744 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:50.744 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:50.905 E/VS.BluetoothShim( 1553): Error locating SCO method
+11-23 17:30:50.905 E/VS.BluetoothShim( 1553): java.lang.NoSuchMethodException: android.bluetooth.BluetoothHeadset.startScoUsingVirtualVoiceCall [class android.bluetooth.BluetoothDevice]
+11-23 17:30:52.296 W/PhenotypeRegOp( 1447): java.util.concurrent.TimeoutException: Timed out waiting for Task
+11-23 17:30:52.337 E/RecoverySnapshotStorage(  517): Error reading snapshot for 10131 from disk
+11-23 17:30:52.337 E/RecoverySnapshotStorage(  517): java.io.FileNotFoundException: /data/system/recoverablekeystore/snapshots/10131.xml: open failed: ENOENT (No such file or directory)
+11-23 17:30:52.337 E/RecoverySnapshotStorage(  517): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:52.340 E/keystore2(  157):     3: Error::Rc(r#SYSTEM_ERROR)
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): [WrappingKeyManager] InternalRecoveryServiceException during wrapping key generation [CONTEXT service_id=172 ]
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): android.security.keystore.recovery.InternalRecoveryServiceException: Failed to import secret key.
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): 	at android.security.keystore.recovery.RecoveryController.wrapUnexpectedServiceSpecificException(RecoveryController.java:783)
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): Caused by: android.os.ServiceSpecificException: Failed to import secret key. (code 22)
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3071)
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.createException(Parcel.java:3041)
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.readException(Parcel.java:3024)
+11-23 17:30:52.340 W/RecoverableKeyStoreGms( 1447): 	at android.os.Parcel.readException(Parcel.java:2966)
+11-23 17:30:52.625 E/enyj    ( 1447): java.lang.RuntimeException: ManagedChannel allocation site
+11-23 17:30:52.625 E/enyj    ( 1447): java.lang.RuntimeException: ManagedChannel allocation site
+11-23 17:30:52.689 W/PeoplePU( 1447): java.lang.IllegalArgumentException: Unknown component: ComponentInfo{com.google.android.syncadapters.contacts/com.google.android.syncadapters.contacts.ProxyGalProvider}
+11-23 17:30:52.689 W/PeoplePU( 1447): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3061)
+11-23 17:30:52.689 W/PeoplePU( 1447): 	at android.os.Parcel.createException(Parcel.java:3041)
+11-23 17:30:52.689 W/PeoplePU( 1447): 	at android.os.Parcel.readException(Parcel.java:3024)
+11-23 17:30:52.689 W/PeoplePU( 1447): 	at android.os.Parcel.readException(Parcel.java:2966)
+11-23 17:30:52.707 W/PeoplePU( 1447): android.content.pm.PackageManager$NameNotFoundException: ComponentInfo{com.google.android.gms/com.google.android.gms.people.sync.focus.ContactsSyncAdapterService}
+11-23 17:30:52.987 I/SemanticLocation( 1421): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:52.987 I/SemanticLocation( 1421): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:53.000 I/SemanticLocation( 1421): java.io.FileNotFoundException: /data/user/0/com.google.android.gms/files/model_bundle_metadata.pb: open failed: ENOENT (No such file or directory)
+11-23 17:30:53.000 I/SemanticLocation( 1421): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-23 17:30:53.036 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:53.075 W/Conscrypt( 1447): Could not set socket write timeout: java.net.SocketException: Socket closed
+11-23 17:30:53.446 W/AsyncOperation( 1421): OperationException[Status{statusCode=Stale snapshot for com.google.android.libraries.consentverifier#com.google.android.gm(change count changed - expected 1  but was 0), resolution=null}]
+11-23 17:30:53.471 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:53.471 W/AsyncOperation( 1421): OperationException[Status{statusCode=Stale snapshot for com.google.android.googlequicksearchbox(change count changed - expected 2  but was 1), resolution=null}]
+11-23 17:30:53.489 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:53.489 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:53.672 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:53.707 E/HardwareInfoFeatureProviderImpl( 1039): java.lang.NumberFormatException: For input string: "E"
+11-23 17:30:53.735 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-23 17:30:53.735 W/SliceDataConverter( 1039): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-23 17:30:53.735 W/SliceDataConverter( 1039): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-23 17:30:53.736 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:53.736 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:53.753 E/SystemServiceRegistry( 1039): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-23 17:30:53.759 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
+11-23 17:30:53.759 W/SliceDataConverter( 1039): Caused by: java.lang.ClassNotFoundException: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
+11-23 17:30:53.759 W/SliceDataConverter( 1039): Caused by: java.lang.ClassNotFoundException: com.android.settings.development.DevelopmentMemtagFooterPreferenceController
+11-23 17:30:53.763 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.credentials.CredentialManagerPreferenceController
+11-23 17:30:53.763 W/SliceDataConverter( 1039): Caused by: java.lang.reflect.InvocationTargetException
+11-23 17:30:53.763 W/SliceDataConverter( 1039): Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1039_3,5,main] that has not called Looper.prepare()
+11-23 17:30:53.763 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.telephony.CallsDefaultSubscriptionController
+11-23 17:30:53.763 W/SliceDataConverter( 1039): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.telephony.CallsDefaultSubscriptionController.<init> [class android.content.Context, class java.lang.String]
+11-23 17:30:53.766 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-23 17:30:53.766 W/SliceDataConverter( 1039): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-23 17:30:53.766 W/SliceDataConverter( 1039): Caused by: java.lang.ClassNotFoundException: com.android.settings.applications.appinfo.ManageAppLocalePreferenceController
+11-23 17:30:53.773 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.telephony.CallsDefaultSubscriptionController
+11-23 17:30:53.773 W/SliceDataConverter( 1039): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.telephony.CallsDefaultSubscriptionController.<init> [class android.content.Context, class java.lang.String]
+11-23 17:30:53.779 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.accessibility.VibrationMainSwitchPreferenceController
+11-23 17:30:53.779 W/SliceDataConverter( 1039): Caused by: java.lang.reflect.InvocationTargetException
+11-23 17:30:53.779 W/SliceDataConverter( 1039): Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[binder:1039_3,5,main] that has not called Looper.prepare()
+11-23 17:30:53.812 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.network.NetworkProviderSimsCategoryController
+11-23 17:30:53.812 W/SliceDataConverter( 1039): Caused by: java.lang.NoSuchMethodException: com.android.settings.network.NetworkProviderSimsCategoryController.<init> [class android.content.Context, class java.lang.String]
+11-23 17:30:53.813 W/SliceDataConverter( 1039): java.lang.IllegalStateException: Invalid preference controller: com.android.settings.fuelgauge.batteryusage.BatteryChartPreferenceController
+11-23 17:30:53.813 W/SliceDataConverter( 1039): Caused by: java.lang.NoSuchMethodException: com.android.settings.fuelgauge.batteryusage.BatteryChartPreferenceController.<init> [class android.content.Context, class java.lang.String]
+11-23 17:30:54.099 D/SettingsSliceProvider( 1039): java.lang.IllegalStateException: Invalid Slices key from path: wifi_calling
+11-23 17:30:54.254 W/RcsClientLib( 4224): Error while stopping RCS engine.
+11-23 17:30:54.254 W/RcsClientLib( 4224): java.lang.IllegalStateException: JibeService Not Initialized
+11-23 17:30:54.254 W/RcsClientLib( 4224): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3065)
+11-23 17:30:54.254 W/RcsClientLib( 4224): 	at android.os.Parcel.createException(Parcel.java:3041)
+11-23 17:30:54.254 W/RcsClientLib( 4224): 	at android.os.Parcel.readException(Parcel.java:3024)
+11-23 17:30:54.254 W/RcsClientLib( 4224): 	at android.os.Parcel.readException(Parcel.java:2966)
+11-23 17:30:54.254 W/RcsClientLib( 4224): 	at com.google.android.aidl.BaseProxy.transactAndReadExceptionReturnVoid(PG:3)
+11-23 17:30:54.408 W/AsyncOperation( 1421): OperationException[Status{statusCode=Stale snapshot for com.google.android.apps.messaging.auto#com.google.android.apps.messaging(change count changed - expected 2  but was 1), resolution=null}]
+11-23 17:30:55.331 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:55.345 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:55.345 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:55.477 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:55.509 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:55.509 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:55.756 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:55.767 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:55.767 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:55.767 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:55.859 E/HardwareInfoFeatureProviderImpl( 1039): java.lang.NumberFormatException: For input string: "E"
+11-23 17:30:55.861 E/HardwareInfoFeatureProviderImpl( 1039): java.lang.NumberFormatException: For input string: "E"
+11-23 17:30:55.948 W/ActivityManager(  517): Scheduling restart of crashed service com.google.android.settings.intelligence/.modules.routines.impl.RoutinesJobIntentService in 1000ms for connection
+11-23 17:30:55.948 W/ActivityManager(  517): Scheduling restart of crashed service com.google.android.settings.intelligence/.modules.routines.impl.ComputeNewInferencesJobService in 10999ms for connection
+11-23 17:30:55.949 W/ActivityManager(  517): Scheduling restart of crashed service com.google.android.settings.intelligence/.modules.appsearchindexing.impl.AppSearchIndexUpdateJobService in 20999ms for connection
+11-23 17:30:55.949 W/ActivityManager(  517): Scheduling restart of crashed service com.google.android.settings.intelligence/.modules.routines.impl.PruneDatabaseJobService in 30999ms for connection
+11-23 17:30:56.263 W/BaseSearchIndex( 1039): Error initial controller
+11-23 17:30:56.295 W/BaseSearchIndex( 1039): Error initial controller
+11-23 17:30:56.332 E/SystemServiceRegistry( 1039): android.os.ServiceManager$ServiceNotFoundException: No service published for: ethernet
+11-23 17:30:56.412 E/JavaBinder( 1039): *** Uncaught remote exception! Exceptions are not yet supported across processes. Client PID 4080 UID 10118.
+11-23 17:30:56.412 E/JavaBinder( 1039): android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+11-23 17:30:56.432 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:56.453 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:56.453 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:56.581 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:56.611 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:56.611 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:56.737 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:56.780 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:56.780 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:56.964 E/PhoneInterfaceManager( 1038): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-23 17:30:56.964 E/PhoneInterfaceManager( 1038): isVoNrEnabled: CommandException: com.android.internal.telephony.CommandException: REQUEST_NOT_SUPPORTED
+11-23 17:30:57.125 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:57.201 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:57.201 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:57.682 W/BaseSearchIndex( 1039): Error initial controller
+11-23 17:30:57.722 W/WifiService(  517): Permission violation - getConfiguredNetworks not allowed for uid=10118, packageName=com.google.android.settings.intelligence, reason=java.lang.SecurityException: UID 10118 has no location permission
+11-23 17:30:57.740 W/BaseSearchIndex( 1039): Error initial controller
+11-23 17:30:57.902 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:57.902 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:57.902 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:57.903 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:58.040 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:58.054 E/AmbientMusicServiceMana( 1566): oxe: java.lang.reflect.InvocationTargetException
+11-23 17:30:58.054 E/AmbientMusicServiceMana( 1566): Caused by: java.lang.reflect.InvocationTargetException
+11-23 17:30:58.054 E/AmbientMusicServiceMana( 1566): Caused by: java.lang.IllegalStateException: No underlying SoundTriggerModule available
+11-23 17:30:58.107 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:58.107 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:58.182 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:58.207 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:58.207 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:58.314 D/SettingsSliceProvider( 1039): java.lang.IllegalStateException: Invalid Slices key from path: wifi_calling
+11-23 17:30:58.594 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:58.617 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:58.617 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:58.786 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:58.809 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:58.809 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:58.837 E/A       ( 1606): onError
+11-23 17:30:58.837 E/cr_CronetUrlRequestContext( 1606): Exception in upload method
+11-23 17:30:58.837 E/cr_CronetUrlRequestContext( 1606): com.google.android.apps.gsa.shared.r.d: Error code: 262182
+11-23 17:30:59.179 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:59.247 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:59.247 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:59.289 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:59.345 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:59.345 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:59.606 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:59.644 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:59.644 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:59.731 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:59.749 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:59.749 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:59.787 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:59.787 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:59.788 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:59.788 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:30:59.879 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:59.900 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:59.900 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:30:59.952 W/A       ( 1606): Can't format flag AndroidGsaVelourJars__velour_crashtest_jar__name to integer.
+11-23 17:30:59.970 W/CorpusConfigHelper( 1606): android.util.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 123 column 2
+11-23 17:30:59.970 W/CorpusConfigHelper( 1606): 	at android.util.JsonReader.syntaxError(JsonReader.java:1162)
+11-23 17:31:00.102 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/08202014-metadata.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/08202014-metadata.txt
+11-23 17:31:00.128 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/08202014-pins.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/08202014-pins.txt
+11-23 17:31:00.209 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/09252026-sms-denylist-metadata.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/09252026-sms-denylist-metadata.txt
+11-23 17:31:00.219 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/09252026-sms-denylist.txt: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/09252026-sms-denylist.txt
+11-23 17:31:00.343 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/model.smfb.metadata: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/model.smfb.metadata
+11-23 17:31:00.370 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/model.smfb: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/model.smfb
+11-23 17:31:00.507 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/en.fb.metadata: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.fb.metadata
+11-23 17:31:00.509 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/en.fb: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.fb
+11-23 17:31:00.539 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/en.model.metadata: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.model.metadata
+11-23 17:31:00.541 W/ModernMediaScanner( 1656): Failed to visit /data/data/com.android.providers.downloads/cache/en.model: java.nio.file.NoSuchFileException: /data/data/com.android.providers.downloads/cache/en.model
+11-23 17:31:00.656 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:31:00.656 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:31:00.656 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:31:00.656 E/AppOps  (  517): java.lang.SecurityException: Specified package "android" under uid 10191 but it is not
+11-23 17:31:01.124 I/NamespaceManager( 1421): Package com.google.android.crashrecovery name not found! Using module version.
+11-23 17:31:01.129 I/NamespaceManager( 1421): Package com.google.android.crashrecovery name not found! Using module version.
+11-23 17:31:01.419 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@af46e67} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.419 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.419 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@7b554bd} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.419 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.420 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@bcf8a03} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.420 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.420 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@e77fb9} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.420 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.420 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@ab6c35f} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.420 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.420 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@a775e75} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.420 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.420 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@dae367b} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.420 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.420 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@cec6cf1} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.420 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@f82a6b0} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@41854ae} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@6e37ddc} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@e190dba} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@2189bc8} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@23a4b86} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@5ffac74} with executor MoreExecutors.directExecutor()
+11-23 17:31:01.424 E/ctbc    ( 4224): java.lang.NullPointerException: Attempt to read from field 'java.lang.String cayk.b' on a null object reference in method 'void ccdw.b(java.lang.Object)'
+11-23 17:31:01.424 E/ctbc    ( 4224): RuntimeException while executing runnable ctdz{cnpz@df9a12} with executor MoreExecutors.directExecutor()
